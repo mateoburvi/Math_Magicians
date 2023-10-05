@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.App {
+  text-align: center;
+}
+
+.header__container {
+  height: 70px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: #ffe53b;
+  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  color: white;
+  box-shadow:
+    0 0.1rem 0.2rem rgba(0, 0, 0, 0.2),
+    0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.header__nav {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  margin: auto;
+  font-weight: 600;
+}
+
+.header__links {
+  width: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
